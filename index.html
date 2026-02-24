@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerGuide AI | IBM Watson-Powered Career Guidance Chatbot</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-robot"></i> CareerGuide AI
+            </a>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#domains" class="nav-link">Domains</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>AI-Powered Career Guidance</h1>
+            <p>Get personalized career recommendations using IBM Watson AI.</p>
+            <div class="hero-buttons">
+                <a href="#domains" class="btn btn-primary">Start Exploring</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Career Guidance Team">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-bg">
+        <div class="container text-center">
+            <h2>About The Project</h2>
+            <div class="about-content">
+                <p>CareerGuide AI is a final year B.Tech project designed to help students and professionals navigate their career paths effectively. Utilizing Natural Language Processing (NLP) and the power of IBM Watson Assistant, our intelligent system provides sophisticated intent recognition and entity extraction to understand your goals, skills, and preferences.</p>
+                <p>By conversational interaction, the Watson chatbot analyzes your inputs to suggest the most suitable tech roles, helping you bridge the gap between your current skills and your dream career.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>Personalized Career Suggestions</h3>
+                    <p>Receive tailored job role recommendations based on your unique background and aspirations.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Skill Recommendations</h3>
+                    <p>Identify skill gaps and discover exactly what you need to learn to achieve your career goals.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-map"></i></div>
+                    <h3>Learning Roadmaps</h3>
+                    <p>Follow structured, step-by-step guides from beginner to advanced levels for your chosen domain.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Real-Time Chatbot Support</h3>
+                    <p>Interact seamlessly with our Watson-powered AI agent for instant guidance anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Domains Section -->
+    <section id="domains" class="domains section-bg">
+        <div class="container">
+            <h2 class="section-title">Trending Career Domains</h2>
+            <div class="domains-grid">
+                <!-- Domain 1 -->
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h3>Data Science</h3>
+                    <p>Extract meaningful insights from raw data using advanced analytics, statistics, and machine learning techniques.</p>
+                </div>
+                <!-- Domain 2 -->
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI Engineer</h3>
+                    <p>Build and deploy artificial intelligence models, neural networks, and scalable machine learning systems.</p>
+                </div>
+                <!-- Domain 3 -->
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fa-brands fa-java"></i></div>
+                    <h3>Java Full Stack Developer</h3>
+                    <p>Develop end-to-end web applications with Java backends, RESTful APIs, and modern frontend frameworks.</p>
+                </div>
+                <!-- Domain 4 -->
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>Cloud Engineer</h3>
+                    <p>Design, implement, and manage secure and scalable cloud infrastructure using AWS, Azure, or Google Cloud.</p>
+                </div>
+                <!-- Domain 5 -->
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Cybersecurity Analyst</h3>
+                    <p>Protect networks, systems, and data from cyber threats with advanced security protocols and monitoring.</p>
+                </div>
+                <!-- Domain 6 -->
+                <div class="domain-card">
+                    <div class="domain-icon"><i class="fa-brands fa-android"></i></div>
+                    <h3>Android Developer</h3>
+                    <p>Create innovative and performant mobile applications for the world's most popular mobile operating system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot" class="chatbot">
+        <div class="container">
+            <h2 class="section-title">Chat with CareerGuide AI</h2>
+            <p class="text-center mb-4">Start a conversation with our intelligent IBM Watson assistant below.</p>
+            <div class="chatbot-container">
+                <div class="chatbot-placeholder">
+                    <i class="fa-solid fa-robot fa-3x mb-3" style="color: var(--primary-color);"></i>
+                    <h3>IBM Watson Chatbot will appear here</h3>
+                    <p>Integration snippet (script tag) from IBM Watson Assistant goes in this container.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-bg">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have questions about our project or want to learn more? Reach out to us!</p>
+                    <ul class="info-list">
+                        <li><i class="fa-solid fa-envelope"></i>Aadityamandloi7@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +91 9826846502</li>
+                        <li><i class="fa-solid fa-location-dot"></i> SVVV</li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Rohan">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Rohan@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2><i class="fa-solid fa-robot"></i> CareerGuide AI</h2>
+                <p>Empowering students to find their true calling through artificial intelligence.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#domains">Domains</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CareerGuide AI Project. Built using IBM Watson Assistant.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
